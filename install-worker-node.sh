@@ -3,6 +3,7 @@ sudo apt install -y apt-transport-https
 curl -s \
 https://packages.cloud.google.com/apt/doc/apt-key.gpg |\
 sudo apt-key add -
+apt install docker.io
 
 sudo touch /etc/apt/sources.list.d/kubernetes.list
 echo \
